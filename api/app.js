@@ -9,10 +9,10 @@ const port = 4000;
 
 // Configuração do banco de dados
 const connection = mysql.createConnection({
-    host: 'br1ayqq82jljjppcdzd4-mysql.services.clever-cloud.com',
-    user: 'uz4k2dccugqkhuk7',
-    password: '6I0sDdkRF1rA65lCgkcs',
-    database: 'br1ayqq82jljjppcdzd4'
+    host: '',
+    user: '',
+    password: '',
+    database: ''
 });
 
 connection.connect((err) => {
